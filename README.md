@@ -93,6 +93,7 @@ _Lineplot visualizes load over time (actual vs predicted)_
 Still there is always other than visual analysis needed.
 
 Residual analysis is a crucial step in model evaluation that examines the differences between the actual and predicted values, called residuals. It helps to assess how well the model fits the data and identify any patterns or issues in the predictions.
+
 ![Residual Distribution](assets/residual_distribution.png)
 _Histplot visualizes residual distribution_
 
