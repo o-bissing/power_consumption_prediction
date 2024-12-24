@@ -23,7 +23,7 @@ To create a model that predicts energy consumption I worked with following tools
 - **Pandas** library for working with dataframes
 - **matplotlib.pyplot** and **seaborn** libraries for plotting the data
 - **sklearn** library for metrics and splitting data
-- **xgboost** model as a key technology for predictions
+- **XGBoost** model as a key technology for predictions
 
 # Data analysis
 
@@ -38,19 +38,19 @@ As it clearly seen at some point in 2020 consumption dropped significantly, the 
 
 Next steps were to observe data in more details to see whether there are other patterns that could affect predictions of the model.
 
-I checked average load by hour of the day
+I checked average load by hour of the day:
 ![Average Load By Hour Of The Day](assets/average_load_by_hour_of_the_day.png)
 _Barplot visualizes load over time by hour of the day_
 
-Distribution of load by the day of the week
+Distribution of load by the day of the week:
 ![Distribution of Load by Day of the Week](assets/distribution_of_load_by_day_of_the_week.png)
 _Boxplot visualizes distribution of load by the day of the week_
 
-Distribution of load by month
+Distribution of load by month:
 ![Distribution of Load by Month](assets/load_distribution_by_month.png)
 _Boxplot visualizes distribution of load by month_
 
-And looked at the heatmap of average load by hour and day of the week
+And looked at the heatmap of average load by hour and day of the week:
 ![Average Load by Hour and Day of the Week](assets/average_load_by_hour_and_day_of_the_week.png)
 _Heatmap visualizes average load by hour and day of the week_
 
@@ -109,7 +109,7 @@ The residual distribution appears to be relatively centered around 0, which is a
 
 5. **Residual Spread**: The variance of residuals should be consistent (homoscedastic). This cannot be determined from this plot alone.
 
-This distribution generally suggests that the model is performing well, but the additional checks mentioned above would give a more comprehensive assessment. However due to a not productional character of this project I desided as a final test to check my model' performance against some standart models like Linear Regression or Decision Trees available with sklearn library. Mean squared error results:
+This distribution generally suggests that the model is performing well, but the additional checks mentioned above would give a more comprehensive assessment. However due to a not productional character of this project I desided as a final test to check my model' performance against some standart models like Linear Regression or Decision Trees available with sklearn library. Mean squared error of the results:
 
 - Linear Regression MSE: 173135.03
 - Decision Tree MSE: 395889.83
