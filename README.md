@@ -1,8 +1,8 @@
-# Introduction
+## Introduction
 
 Goal of this project is to enchance my Data Science skills in forecasting. Dataset for this project is free and available on [Kaggle](https://www.kaggle.com/datasets/francoisraucent/western-europe-power-consumption/data).
 
-# Background
+## Background
 
 The dataset I used contains information about the power consumption in western Europe form January 2015 up to August 2020 in Megawatts (MW).
 
@@ -16,7 +16,7 @@ Below is an example of the data in this table. There are is information about MW
 | 8   | 2015-01-01 02:00:00+00:00 | 2015-01-01 02:15:00+00:00 | 39472.0 |
 | 9   | 2015-01-01 02:15:00+00:00 | 2015-01-01 02:30:00+00:00 | 39217.0 |
 
-# Tools I used
+## Tools I used
 
 To create a model that predicts energy consumption I worked with following tools:
 
@@ -25,7 +25,7 @@ To create a model that predicts energy consumption I worked with following tools
 - **sklearn** library for metrics and splitting data
 - **XGBoost** model as a key technology for predictions
 
-# Data analysis
+## Data analysis
 
 Before training the model each dataset should be examined and prepared for training.
 After loading the data and extracting time-based features it was important to generate lag reatures because to give the model better chance to figure out features of this time-series data.
@@ -56,7 +56,7 @@ _Heatmap visualizes average load by hour and day of the week_
 
 Because all graphs showed some clear and repeated patterns I went to the next step.
 
-# Data preparation, regression model training and prediction on the test set
+## Data preparation, regression model training and prediction on the test set
 
 Data was split into train and test parts in 80% to 20% proportion.
 
