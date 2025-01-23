@@ -24,6 +24,8 @@ To create a model that predicts energy consumption I worked with following tools
 - **matplotlib.pyplot** and **seaborn** libraries for plotting the data
 - **sklearn** library for metrics and splitting data
 - **XGBoost** model as a key technology for predictions
+- **Bash** for interaction with OS, doing terminal based tasks and working with GitHub
+- **Git** for version control
 
 ## Data analysis
 
