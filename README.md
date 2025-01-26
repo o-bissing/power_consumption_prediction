@@ -20,6 +20,7 @@ Below is an example of the data in this table. There are is information about MW
 
 To create a model that predicts energy consumption I worked with following tools:
 
+- **Python** as main programming language
 - **Pandas** library for working with dataframes
 - **matplotlib.pyplot** and **seaborn** libraries for plotting the data
 - **sklearn** library for metrics and splitting data
